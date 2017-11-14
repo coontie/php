@@ -17,6 +17,10 @@
     array("Manhertz",	11),
     array("Artis-Payne", 2)
   );
+
+  for ($row=0; $row<count($receivers); $row++) {
+    print $receivers[$row][0]
+  }
 ?>
 </body>
 </html>
