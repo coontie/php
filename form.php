@@ -3,17 +3,18 @@
 </head>
 <body>
   <form action="thankyou.php" method="post">
-    <input type="text" name="f_name">
-    <input type="text" name="l_name">
-    <select name="position">
-      <option value="qb">Quarterback</option>
-      <option value="rb">Running Back</option>
-      <option value="ol">Offensive Line/option>
-      <option value="wr">Wide Receiver</option>
-      <option value="te">Tight End</option>
-    </select>
-    <input type="text" name="rush_yards">
-    <input type="text" name="rec_yards">
+    First name: <input type="text" name="f_name"><br>
+    Last name:  <input type="text" name="l_name"><br>
+    Position:   <select name="position">
+      <option value="quarterback">Quarterback</option>
+      <option value="running back">Running Back</option>
+      <option value="offensive lineman">Offensive Line/option>
+      <option value="wide receiver">Wide Receiver</option>
+      <option value="tight end">Tight End</option>
+    </select><br>
+    Receiving yards: <input type="text" name="rec_yards"><br>
+    Rushing yards: <input type="text" name="rush_yards"><br>
+    <input type="submit" name="Submit" value="Submit player values"><br>
   </form>
 </body>
 </html>
