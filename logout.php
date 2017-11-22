@@ -7,7 +7,6 @@ $_SESSION["status"]="";
 
  <html>
  <head>
-   Logged out.
  </head>
  <body>
    <h1>Logged out!</h1>

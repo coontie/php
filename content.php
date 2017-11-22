@@ -5,7 +5,7 @@
 <body>
 
   <?php
-  if ($_SESSION["session"] == "valid") { ?>
+  if ($_SESSION["status"] == "valid") { ?>
   <form action="thankyou.php" method="post">
     First name: <input type="text" name="f_name"><br>
     Last name:  <input type="text" name="l_name"><br>
