@@ -16,6 +16,7 @@
       echo $player['Position'];
       echo $player['RecYards'];
       echo $player['RushYards'];
+      echo "<br>";
   }
 
   mysqli_free_result($player_set);

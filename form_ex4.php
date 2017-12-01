@@ -10,7 +10,7 @@
     Position:   <select name="position">
       <option value="quarterback">Quarterback</option>
       <option value="running back">Running Back</option>
-      <option value="offensive lineman">Offensive Line/option>
+      <option value="offensive lineman">Offensive Line</option>
       <option value="wide receiver">Wide Receiver</option>
       <option value="tight end">Tight End</option>
     </select><br>
