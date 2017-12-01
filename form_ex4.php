@@ -2,6 +2,8 @@
 <head><title>Carolina Panthers RB Stats</title>
 </head>
 <body>
+  <a href="viewplayers.php">View</a>
+  <h1>Please enter information:</h1>
   <form action="create.php" method="post">
     First name: <input type="text" name="f_name"><br>
     Last name:  <input type="text" name="l_name"><br>
