@@ -4,6 +4,8 @@
   <h1>View all players</h1>
 <?php
 
+  //sourced from an anonymous poster on stackoverflow
+  //https://stackoverflow.com/questions/11943479/create-html-table-from-sql-table
   function sql_to_html_table($sqlresult, $delim="\n") {
   // starting table
   $htmltable =  "<table>" . $delim ;
