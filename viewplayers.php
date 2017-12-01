@@ -2,6 +2,9 @@
 <head>
 <body>
   <h1>View all players</h1>
+  <a href="form_ex4.php">Create a new player</a>
+  <br>
+
 <?php
 
   function sql_to_html_table($sqlresult, $delim="\n") {
@@ -39,7 +42,7 @@
 
   $player_set = mysqli_query($connection,$sql);
 
-  echo sql_to_html_table( $player_set, $delim="\n" ) ; 
+  echo sql_to_html_table( $player_set, $delim="\n" ) ;
   mysqli_free_result($player_set);
 
   mysqli_close($connection);

@@ -20,7 +20,7 @@ $rushingYards = $_POST["rush_yards"];
 
   $sql = "INSERT INTO players (FirstName, LastName, Position, RecYards, RushYards)
           VALUES ('$firstName', '$lastName', '$position', '$receivingYards', '$rushingYards');";
-  echo $sql;
+  //echo $sql;
 
   mysqli_query($connection,$sql);
 
